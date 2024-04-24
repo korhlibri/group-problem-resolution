@@ -3,17 +3,39 @@
             "Grupo" : {
                 "1" : {
                     "Horario" : {
-                        "Inicio" : "07:00",
-                        "Fin" : "09:00",
-                        "Dia" : ["Lunes", "Miercoles", "Viernes"],
+                        "Dias" : {
+                            "Lunes" : {
+                                "Inicio" : "09:00",
+                                "Fin" : "11:00"
+                            },
+                            "Miercoles" : {
+                                "Inicio" : "09:00",
+                                "Fin" : "11:00"
+                            },
+                            "Viernes" : {
+                                "Inicio" : "09:00",
+                                "Fin" : "11:00"
+                            }
+                        },
                         "Nomina" : "L01769961"
                 },
 
                 "2" : {
                     "Horario" : {
-                        "Inicio" : "09:00",
-                        "Fin" : "11:00",
-                        "Dia" : ["Lunes", "Miercoles", "Viernes"],
+                        "Dias" : {
+                            "Lunes" : {
+                                "Inicio" : "09:00",
+                                "Fin" : "11:00"
+                            },
+                            "Miercoles" : {
+                                "Inicio" : "09:00",
+                                "Fin" : "11:00"
+                            },
+                            "Viernes" : {
+                                "Inicio" : "09:00",
+                                "Fin" : "11:00"
+                            }
+                        },
                         "Nomina" : "L01769961"
                     }
                 }
