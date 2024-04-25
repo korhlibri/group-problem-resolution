@@ -1,12 +1,11 @@
-,,,,,,,,,,,,,,,,,
-Clave,Nombre,VÌctor MaÒÛn,Juan Alvarado,Roberto Leyva,Mauricio Paletta,Yerly Flores,Jaime LÛpez,Jorge RodrÌguez,JosÈ Aguilera,Luis Guadarrama,Pedro Hernandez,MarÌa Mirafuentes,Roberto Vera,Octavio Silva,Fernando Ruiz,Ivan Olmos,Israel Tabarez
-TC1027,ProgramaciÛn para negocios,,X,X,X,,X,,X,,X,,X,,,,
-TC1028,Pensamiento computacional para ingenierÌa,X,X,X,X,X,,,X,,X,,X,,,,
-TC1029,Pensamiento computacional y programaciÛn,X,X,X,X,,,,X,,X,,X,,,,
-TC1030,ProgramaciÛn orientada a objetos,X,,,X,,,,,,,,,,,,
-TC1031,ProgramaciÛn de estructuras de datos y algoritmos fundamentales,X,X,X,X,,,,X,,,,,,,,
-TC1032,ModelaciÛn de sistemas mÌnimos y arquitecturas computacionales,,,,,X,,X,,,,,,,X,,X
+Clave,Nombre,V√≠ctor Ma√±on,Juan Alvarado,Roberto Leyva,Mauricio Paletta,Yerly Flores,Jaime L√≥pez,Jorge Rodr√≠guez,Jos√© Aguilera,Luis Guadarrama,Pedro Hernandez,Mar√≠a Mirafuentes,Roberto Vera,Octavio Silva,Fernando Ruiz,Ivan Olmos,Israel Tabarez
+TC1027,Programaci√≥n para negocios,,X,X,X,,X,,X,,X,,X,,,,
+TC1028,Pensamiento computacional para ingenier√≠a,X,X,X,X,X,,,X,,X,,X,,,,
+TC1029,Pensamiento computacional y programaci√≥n,X,X,X,X,,,,X,,X,,X,,,,
+TC1030,Programaci√≥n orientada a objetos,X,,,X,,,,,,,,,,,,
+TC1031,Programaci√≥n de estructuras de datos y algoritmos fundamentales,X,X,X,X,,,,X,,,,,,,,
+TC1032,Modelaci√≥n de sistemas m√≠nimos y arquitecturas computacionales,,,,,X,,X,,,,,,,X,,X
 TC1033,Pensamiento computacional orientado a objetos,X,,,X,,,,,,,,,,,,
-TC2037,ImplementaciÛn de mÈtodos computacionales,,X,,,,,,X,,X,,,,,,
-TC2038,An·lisis y diseÒo de algoritmos avanzados,,X,,X,,,,X,,,,,,,,
-TI1015,An·lisis de requerimientos de software,,X,X,,,,,X,X,X,X,X,,,,
+TC2037,Implementaci√≥n de m√©todos computacionales,,X,,,,,,X,,X,,,,,,
+TC2038,An√°lisis y dise√±o de algoritmos avanzados,,X,,X,,,,X,,,,,,,,
+TI1015,An√°lisis de requerimientos de software,,X,X,,,,,X,X,X,X,X,,,,
