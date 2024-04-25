@@ -1,46 +1,15 @@
 {
-        "TC3005" : {
-            "Grupo" : {
-                "1" : {
-                    "Horario" : {
-                        "Dias" : {
-                            "Lunes" : {
-                                "Inicio" : "09:00",
-                                "Fin" : "11:00"
-                            },
-                            "Miercoles" : {
-                                "Inicio" : "09:00",
-                                "Fin" : "11:00"
-                            },
-                            "Viernes" : {
-                                "Inicio" : "09:00",
-                                "Fin" : "11:00"
-                            }
-                        },
-                        "Nomina" : "L01769961"
-                },
-
-                "2" : {
-                    "Horario" : {
-                        "Dias" : {
-                            "Lunes" : {
-                                "Inicio" : "09:00",
-                                "Fin" : "11:00"
-                            },
-                            "Miercoles" : {
-                                "Inicio" : "09:00",
-                                "Fin" : "11:00"
-                            },
-                            "Viernes" : {
-                                "Inicio" : "09:00",
-                                "Fin" : "11:00"
-                            }
-                        },
-                        "Nomina" : "L01769961"
-                    }
-                }
+    "1" : {
+        "TC3005B" : {
+            "1" : {
+                "Profesor" : "L00271734",
+                "Horario" : "Lunes 10:00 - 12:00"
+            },
+            
+            "2" : {
+                "Profesor" : "L03524672",
+                "Horario" : "Miercoles 10:00 - 12:00"
             }
-
         }
     }
 }
