@@ -1,14 +1,679 @@
 {
     "1" : {
+        "TC1030" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC2005B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "5" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "6" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "7" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "8" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC2006B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC2037" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC1002B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "5" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "6" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "7" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC3004B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "5" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
         "TC3005B" : {
             "1" : {
-                "Profesor" : "L00271734",
-                "Horario" : "Lunes 10:00 - 12:00"
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
             },
-            
             "2" : {
-                "Profesor" : "L03524672",
-                "Horario" : "Miercoles 10:00 - 12:00"
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "5" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "6" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "7" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TI3005B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC3002B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC3003B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        }
+    },
+    "2" : {
+        "TC1028" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC1033" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC1027" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC1001B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "5" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "6" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "7" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC1031" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC1032" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC1004B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "5" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "6" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "7" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "8" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "9" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TI1015" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC2038" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC2007B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "5" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "6" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            }
+        },
+        "TC2008B" : {
+            "1" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "2" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "3" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "4" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "5" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "6" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
+            },
+            "7" : {
+                "Profesor" : "",
+                "Horario" : {
+                    "Dia" : "",
+                    "Hora Inicial" : "",
+                    "Hora Final" : ""
+                }
             }
         }
     }
