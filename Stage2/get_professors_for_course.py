@@ -2,6 +2,7 @@ import csv
 import os
 from pathlib import Path
 import re
+import json
 
 def get_professors_for_block(blockdir):
     mod_path = Path(__file__).parent
@@ -48,6 +49,6 @@ def get_professors_for_course():
     blocks = [x for x in os.listdir(f"{mod_path}/csvs") if re.match(r'^.*-Profesores.csv$', x)]
     for file in blocks:
         professors[re.match(r'^.*(?=-)', file).group(0)] = get_professors_for_block(file)
-    print(professors)
+    print(json.dumps(professors, sort_keys=True, indent=4))
 
 get_professors_for_course()
