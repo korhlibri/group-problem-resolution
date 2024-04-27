@@ -18,7 +18,7 @@ def get_professors_for_block(blockdir):
             j = 3
             while j < len(line):
                 if line[j] == "X":
-                    if line[0] in result.keys() and line[0][z]:
+                    if line[0] in result.keys():
                         result[line[0]].append(headers[j])
                     else:
                         result[line[0]] = [headers[j]]
@@ -46,7 +46,8 @@ def get_professors_for_course():
                         professors[line[0]] = {"1": [headers[j]]}
                 j += 1
     blocks = [x for x in os.listdir(f"{mod_path}/csvs") if re.match(r'^.*-Profesores.csv$', x)]
-    print(blocks)
-    # print(professors)
+    for file in blocks:
+        professors[re.match(r'^.*(?=-)', file).group(0)] = get_professors_for_block(file)
+    print(professors)
 
 get_professors_for_course()
