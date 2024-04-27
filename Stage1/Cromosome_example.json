@@ -4,9 +4,10 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -14,65 +15,73 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "5" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "6" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "7" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "8" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -80,25 +89,28 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -106,9 +118,10 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -116,57 +129,64 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "5" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "6" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "7" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -174,41 +194,46 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "5" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -216,57 +241,64 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "5" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "6" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "7" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -274,25 +306,28 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -300,33 +335,37 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -334,33 +373,37 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         }
@@ -370,65 +413,73 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "5" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "6" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "7" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "8" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -436,9 +487,10 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -446,33 +498,37 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -480,57 +536,64 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "5" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "6" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "7" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -538,9 +601,10 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -548,9 +612,10 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -558,73 +623,82 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "5" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "6" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "7" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "8" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "9" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -632,9 +706,10 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -642,9 +717,10 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -652,49 +728,55 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "5" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "6" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         },
@@ -702,57 +784,64 @@
             "1" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "2" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "3" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "4" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "5" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "6" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             },
             "7" : {
                 "Profesor" : "",
                 "Horario" : {
-                    "Dia" : "",
-                    "Hora Inicial" : "",
-                    "Hora Final" : ""
+                    "Lunes": {
+                        "Hora Inicial" : "",
+                        "Hora Final" : ""
+                    }
                 }
             }
         }
