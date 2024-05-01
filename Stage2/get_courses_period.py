@@ -14,9 +14,8 @@ def dict_courses_period(df):
                 p2.append(row['Clave'])
             if i == 3:
                 p3.append(row['Clave'])
-    courses_period = {1:p1, 2:p2, 3:p3}
-    print(courses_period)
-    #return courses_period
+    courses_period = {'1':p1, '2':p2, '3':p3}
+    return courses_period
 
 def get_courses_period(semester_even):
     mod_path = Path(__file__).parent
@@ -27,9 +26,9 @@ def get_courses_period(semester_even):
         df = df.drop(df[(df.Semestre % 2) != 0].index)
     else:
         df = df.drop(df[(df.Semestre % 2) == 0].index)
-    dict_courses_period(df)
+    return dict_courses_period(df)
 
 
-get_courses_period(True)
-print('---')
-get_courses_period(False)
+# get_courses_period(True)
+# print('---')
+# get_courses_period(False)

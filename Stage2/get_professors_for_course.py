@@ -49,6 +49,5 @@ def get_professors_for_course():
     blocks = [x for x in os.listdir(f"{mod_path}/csvs") if re.match(r'^.*-Profesores.csv$', x)]
     for file in blocks:
         professors[re.match(r'^.*?(?=-)', file).group(0)] = get_professors_for_block(file)
-    print(json.dumps(professors, sort_keys=True, indent=4))
-
-get_professors_for_course()
+    return professors
+    # print(json.dumps(professors, sort_keys=True, indent=4))

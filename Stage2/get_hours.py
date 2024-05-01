@@ -15,9 +15,11 @@ def hoursCoursesTopics(nombre_archivo):
         data= {}
         
         for row in reader:
+            
             tema = row[0]
             horas = row[2]
-            data[tema] = horas
+            if tema is not '':
+                data[tema] = horas
 
     return data   
 
@@ -39,16 +41,10 @@ def hoursCoursesUDF():
     with open(f"{mod_path}/csvs/UDF.csv","r") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            
-            if "B" not in row["ï»¿Clave"]:
+            if "B" not in row["\ufeffClave"]:
                 #dic["1"] = row['Horas']
-                hoursUDF[row['ï»¿Clave']] = {'1': row['Horas']}
+                hoursUDF[row["\ufeffClave"]] = {'1': row['Horas']}
 
-    for clave, valor in hoursUDF.items():
-        print(clave, ": ", valor)
 
     return hoursUDF
 
-
-#hoursCoursesTopics()
-hoursCoursesUDF()

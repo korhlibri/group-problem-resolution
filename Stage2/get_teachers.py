@@ -87,9 +87,8 @@ def normailize_schedule(schedule : str) -> None:
                 
         return hours, days
     
-def get_teachers(csv):
-    
-    print("Hola")
+def get_teachers():
+    csv = (mod_path / "csvs" / "Profesores.csv").resolve()
     
     teachers = {}
 
@@ -111,7 +110,3 @@ def get_teachers(csv):
             teachers[row['Nombre']][day] = hours
     
     return teachers
-
-
-
-pp(get_teachers(csv))
