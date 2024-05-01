@@ -112,6 +112,3 @@ def get_teachers(csv):
     
     return teachers
 
-
-
-pp(get_teachers(csv))
