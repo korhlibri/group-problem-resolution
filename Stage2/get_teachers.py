@@ -42,6 +42,8 @@ def normailize_schedule(schedule : str) -> None:
         
         hours = [str(i) for i in hours]
         
+        hours = [(hours[i], hours[i+1]) for i in range(0, len(hours), 2)]
+        
         return hours, days
         
     elif schedule.find("preferencia") != -1:
@@ -56,6 +58,8 @@ def normailize_schedule(schedule : str) -> None:
                 hours.append(i)
                 
         hours = [str(i) for i in hours]
+        hours = [(hours[i], hours[i+1]) for i in range(0, len(hours), 2)]
+        
                 
         return hours, days
     
@@ -71,6 +75,7 @@ def normailize_schedule(schedule : str) -> None:
         days.append("Viernes")
         
         hours = [str(i) for i in hours]
+        hours = [(hours[i], hours[i+1]) for i in range(0, len(hours), 2)]
         
         return hours, days
     
@@ -92,6 +97,8 @@ def normailize_schedule(schedule : str) -> None:
                 hours.append(i)
                 
         hours = [str(i) for i in hours]
+        hours = [(hours[i], hours[i+1]) for i in range(0, len(hours), 2)]
+        
                 
         return hours, days
     
