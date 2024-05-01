@@ -1,5 +1,6 @@
 import pandas as pd
 from pathlib import Path
+from get_groups import get_period
 
 def dict_courses_period(df):
     p1, p2, p3 = [],[],[]
@@ -13,7 +14,14 @@ def dict_courses_period(df):
             if i == 2:
                 p2.append(row['Clave'])
             if i == 3:
-                p3.append(row['Clave'])
+                
+                per1 = get_period(True)
+                per2 = get_period(False)
+                        
+                if row['Clave'] in per1 or row['Clave'] in per2:
+                    p3.append(row['Clave'])
+                
+                
     courses_period = {1:p1, 2:p2, 3:p3}
     print(courses_period)
     #return courses_period
