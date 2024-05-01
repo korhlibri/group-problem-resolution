@@ -37,6 +37,3 @@ def get_period(even : bool) -> dict:
         print("Invalid argument")
         
     return period
-    
-    
-pp(get_period(False))
