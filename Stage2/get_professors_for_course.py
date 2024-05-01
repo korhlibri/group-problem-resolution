@@ -7,7 +7,7 @@ import json
 def get_professors_for_block(blockdir):
     mod_path = Path(__file__).parent
     result = {}
-    with open(f"{mod_path}/csvs/{blockdir}", "r") as f:
+    with open(f"{mod_path}/csvs/{blockdir}", "r", encoding="utf-8") as f:
         lines = csv.reader(f)
         headers = []
         z = 1
@@ -30,7 +30,7 @@ def get_professors_for_block(blockdir):
 def get_professors_for_course():
     mod_path = Path(__file__).parent
     professors = {}
-    with open(f"{mod_path}/csvs/Profesores y Materias.csv", "r") as f:
+    with open(f"{mod_path}/csvs/Profesores y Materias.csv", "r", encoding="utf-8") as f:
         lines = csv.reader(f)
         headers = []
         for i, line in enumerate(lines):
@@ -48,7 +48,7 @@ def get_professors_for_course():
                 j += 1
     blocks = [x for x in os.listdir(f"{mod_path}/csvs") if re.match(r'^.*-Profesores.csv$', x)]
     for file in blocks:
-        professors[re.match(r'^.*(?=-)', file).group(0)] = get_professors_for_block(file)
+        professors[re.match(r'^.*?(?=-)', file).group(0)] = get_professors_for_block(file)
     print(json.dumps(professors, sort_keys=True, indent=4))
 
 get_professors_for_course()
