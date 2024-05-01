@@ -1,0 +1,747 @@
+{
+    "1": {
+        "1": {
+            "TC1028": {
+                "1": {
+                    "profesor": "V\u00edctor Ma\u00f1on",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Jos\u00e9 Aguilera",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Yerly Flores",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Yerly Flores",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "8": {
+                    "profesor": "Yerly Flores",
+                    "horas": "40",
+                    "horario": {}
+                }
+            },
+            "TC1031": {
+                "1": {
+                    "profesor": "Jos\u00e9 Aguilera",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC2038": {
+                "1": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC2007B": {
+                "1": {
+                    "profesor": "Yerly Flores",
+                    "horas": "15",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
+                    "horas": "25",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "50",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "20",
+                    "horario": {}
+                }
+            }
+        },
+        "2": {
+            "TC1027": {
+                "1": {
+                    "profesor": "Roberto Vera",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "20",
+                    "horario": {}
+                }
+            },
+            "TC1028": {
+                "1": {
+                    "profesor": "Yerly Flores",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "V\u00edctor Ma\u00f1on",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Jos\u00e9 Aguilera",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Jos\u00e9 Aguilera",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "8": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "40",
+                    "horario": {}
+                }
+            },
+            "TC1031": {
+                "1": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC1032": {
+                "1": {
+                    "profesor": "Jorge Rodr\u00edguez",
+                    "horas": "20",
+                    "horario": {}
+                }
+            },
+            "TC1004B": {
+                "1": {
+                    "profesor": "Israel Tabarez",
+                    "horas": "15",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Yerly Flores",
+                    "horas": "15",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Jaime L\u00f3pez",
+                    "horas": "5",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Israel Tabarez",
+                    "horas": "5",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Jaime L\u00f3pez",
+                    "horas": "5",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "10",
+                    "horario": {}
+                },
+                "8": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "15",
+                    "horario": {}
+                },
+                "9": {
+                    "profesor": "Fernando Ruiz",
+                    "horas": "30",
+                    "horario": {}
+                }
+            },
+            "TC2038": {
+                "1": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC2007B": {
+                "1": {
+                    "profesor": "Yerly Flores",
+                    "horas": "15",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Yerly Flores",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Octavio Silva",
+                    "horas": "25",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "50",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "20",
+                    "horario": {}
+                }
+            }
+        },
+        "3": {
+            "TC1031": {
+                "1": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC1033": {
+                "1": {
+                    "profesor": "V\u00edctor Ma\u00f1on",
+                    "horas": "20",
+                    "horario": {}
+                }
+            },
+            "TC1001B": {
+                "1": {
+                    "profesor": "Jorge Rodr\u00edguez",
+                    "horas": "4",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "8",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
+                    "horas": "6",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Jorge Rodr\u00edguez",
+                    "horas": "8",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "24",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Octavio Silva",
+                    "horas": "6",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Jorge Rodr\u00edguez",
+                    "horas": "4",
+                    "horario": {}
+                }
+            },
+            "TC1004B": {
+                "1": {
+                    "profesor": "Jaime L\u00f3pez",
+                    "horas": "15",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Jaime L\u00f3pez",
+                    "horas": "15",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Jaime L\u00f3pez",
+                    "horas": "5",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Israel Tabarez",
+                    "horas": "5",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Israel Tabarez",
+                    "horas": "5",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "10",
+                    "horario": {}
+                },
+                "8": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "15",
+                    "horario": {}
+                },
+                "9": {
+                    "profesor": "Fernando Ruiz",
+                    "horas": "30",
+                    "horario": {}
+                }
+            },
+            "TC2038": {
+                "1": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC2008B": {
+                "1": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "8",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "12",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Ivan Olmos",
+                    "horas": "12",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "12",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "12",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "12",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Israel Tabarez",
+                    "horas": "12",
+                    "horario": {}
+                }
+            },
+            "TI1015": {
+                "1": {
+                    "profesor": "Roberto Vera",
+                    "horas": "20",
+                    "horario": {}
+                }
+            }
+        }
+    },
+    "2": {
+        "1": {
+            "TC2037": {
+                "1": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC2005B": {
+                "1": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "4",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "50",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "8",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "4",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Roberto Vera",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "4",
+                    "horario": {}
+                },
+                "8": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "30",
+                    "horario": {}
+                }
+            },
+            "TC3004B": {
+                "1": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "12",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "24",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "24",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "30",
+                    "horario": {}
+                }
+            },
+            "TI3005B": {
+                "1": {
+                    "profesor": "Mar\u00eda Mirafuentes",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "60",
+                    "horario": {}
+                }
+            }
+        },
+        "2": {
+            "TC1002B": {
+                "1": {
+                    "profesor": "Jorge Rodr\u00edguez",
+                    "horas": "2",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Jorge Rodr\u00edguez",
+                    "horas": "2",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Jorge Rodr\u00edguez",
+                    "horas": "6",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "24",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Jorge Rodr\u00edguez",
+                    "horas": "16",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
+                    "horas": "8",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Jorge Rodr\u00edguez",
+                    "horas": "2",
+                    "horario": {}
+                }
+            },
+            "TC2037": {
+                "1": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC2005B": {
+                "1": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "4",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "50",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "8",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "4",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "4",
+                    "horario": {}
+                },
+                "8": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "30",
+                    "horario": {}
+                }
+            },
+            "TC3002B": {
+                "1": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "30",
+                    "horario": {}
+                }
+            },
+            "TC3005B": {
+                "1": {
+                    "profesor": "Mar\u00eda Mirafuentes",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "50",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Roberto Vera",
+                    "horas": "60",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "10",
+                    "horario": {}
+                }
+            }
+        },
+        "3": {
+            "TC1030": {
+                "1": {
+                    "profesor": "Mauricio Paletta",
+                    "horas": "20",
+                    "horario": {}
+                }
+            },
+            "TC2037": {
+                "1": {
+                    "profesor": "Jos\u00e9 Aguilera",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC2006B": {
+                "1": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Yerly Flores",
+                    "horas": "30",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
+                    "horas": "30",
+                    "horario": {}
+                }
+            },
+            "TC3003B": {
+                "1": {
+                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
+                    "horas": "10",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "16",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Roberto Leyva",
+                    "horas": "34",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "60",
+                    "horario": {}
+                }
+            },
+            "TC3005B": {
+                "1": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "2": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "50",
+                    "horario": {}
+                },
+                "3": {
+                    "profesor": "Roberto Vera",
+                    "horas": "60",
+                    "horario": {}
+                },
+                "4": {
+                    "profesor": "Pedro Hernandez",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "5": {
+                    "profesor": "Mar\u00eda Mirafuentes",
+                    "horas": "40",
+                    "horario": {}
+                },
+                "6": {
+                    "profesor": "Luis Guadarrama",
+                    "horas": "20",
+                    "horario": {}
+                },
+                "7": {
+                    "profesor": "Juan Alvarado",
+                    "horas": "10",
+                    "horario": {}
+                }
+            }
+        }
+    }
+}

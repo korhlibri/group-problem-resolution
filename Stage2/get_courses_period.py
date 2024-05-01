@@ -8,23 +8,21 @@ def dict_courses_period(df):
     for index, row in df.iterrows():
         #print(row['Clave'],row['P1'], row['P2'], row['P3'])
         periods = [i for i,p in enumerate([row['P1'], row['P2'], row['P3']],1) if p != '-']
+        per1 = get_period(True)
+        per2 = get_period(False)
         for i in periods:
             if i == 1:
-                p1.append(row['Clave'])
-            if i == 2:
-                p2.append(row['Clave'])
-            if i == 3:
-                
-                per1 = get_period(True)
-                per2 = get_period(False)
-                        
+                if row['Clave'] in per1 or row['Clave'] in per2:
+                    p1.append(row['Clave'])
+            if i == 2:     
+                if row['Clave'] in per1 or row['Clave'] in per2:
+                    p2.append(row['Clave'])
+            if i == 3: 
                 if row['Clave'] in per1 or row['Clave'] in per2:
                     p3.append(row['Clave'])
                 
-                
-    courses_period = {1:p1, 2:p2, 3:p3}
-    print(courses_period)
-    #return courses_period
+    courses_period = {'1':p1, '2':p2, '3':p3}
+    return courses_period
 
 def get_courses_period(semester_even):
     mod_path = Path(__file__).parent
