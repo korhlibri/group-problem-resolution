@@ -40,6 +40,8 @@ def normailize_schedule(schedule : str) -> None:
                 hours.append(i)
         hours.append(20)
         
+        hours = [str(i) for i in hours]
+        
         return hours, days
         
     elif schedule.find("preferencia") != -1:
@@ -53,6 +55,8 @@ def normailize_schedule(schedule : str) -> None:
             if i.isdigit():
                 hours.append(i)
                 
+        hours = [str(i) for i in hours]
+                
         return hours, days
     
     elif schedule == "Flexible":
@@ -65,6 +69,8 @@ def normailize_schedule(schedule : str) -> None:
         days.append("Miércoles")
         days.append("Jueves")
         days.append("Viernes")
+        
+        hours = [str(i) for i in hours]
         
         return hours, days
     
@@ -84,6 +90,8 @@ def normailize_schedule(schedule : str) -> None:
         for i in splitted_schedule:
             if i.isdigit():
                 hours.append(i)
+                
+        hours = [str(i) for i in hours]
                 
         return hours, days
     
@@ -112,3 +120,4 @@ def get_teachers(csv):
     
     return teachers
 
+pp(get_teachers(csv))
