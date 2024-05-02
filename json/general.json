@@ -1,745 +1,1410 @@
 {
     "1": {
-        "1": {
-            "TC1028": {
-                "1": {
-                    "profesor": "V\u00edctor Ma\u00f1on",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Jos\u00e9 Aguilera",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Yerly Flores",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Yerly Flores",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "8": {
-                    "profesor": "Yerly Flores",
-                    "horas": "40",
-                    "horario": {}
+        "TC2008B": {
+            "Roberto Leyva": {
+                "Modulos": [
+                    "1",
+                    "2"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            14,
+                            18
+                        ]
+                    ]
                 }
             },
-            "TC1031": {
-                "1": {
-                    "profesor": "Jos\u00e9 Aguilera",
-                    "horas": "60",
-                    "horario": {}
+            "Pedro Hernandez": {
+                "Modulos": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 10,
+                "Horas_Totales": 48,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            9,
+                            15
+                        ]
+                    ],
+                    "Jueves": [
+                        [
+                            13,
+                            17
+                        ]
+                    ]
                 }
             },
-            "TC2038": {
-                "1": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "60",
-                    "horario": {}
-                }
-            },
-            "TC2007B": {
-                "1": {
-                    "profesor": "Yerly Flores",
-                    "horas": "15",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
-                    "horas": "25",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "50",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "20",
-                    "horario": {}
+            "Israel Tabarez": {
+                "Modulos": [
+                    "7"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 2,
+                "Horas_Totales": 12,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            13,
+                            15
+                        ]
+                    ]
                 }
             }
         },
-        "2": {
-            "TC1027": {
-                "1": {
-                    "profesor": "Roberto Vera",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "20",
-                    "horario": {}
+        "TC2007B": {
+            "V\u00edctor Ma\u00f1\u00f3n": {
+                "Modulos": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 6,
+                "Horas_Totales": 60,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            15,
+                            20
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            19,
+                            20
+                        ]
+                    ]
                 }
             },
-            "TC1028": {
-                "1": {
-                    "profesor": "Yerly Flores",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "V\u00edctor Ma\u00f1on",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Jos\u00e9 Aguilera",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Jos\u00e9 Aguilera",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "8": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "40",
-                    "horario": {}
+            "Roberto Leyva": {
+                "Modulos": [
+                    "4"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 5,
+                "Horas_Totales": 50,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            17,
+                            19
+                        ]
+                    ],
+                    "Martes": [
+                        [
+                            9,
+                            10
+                        ]
+                    ],
+                    "Lunes": [
+                        [
+                            7,
+                            8
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            9,
+                            10
+                        ]
+                    ]
                 }
             },
-            "TC1031": {
-                "1": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "60",
-                    "horario": {}
-                }
-            },
-            "TC1032": {
-                "1": {
-                    "profesor": "Jorge Rodr\u00edguez",
-                    "horas": "20",
-                    "horario": {}
-                }
-            },
-            "TC1004B": {
-                "1": {
-                    "profesor": "Israel Tabarez",
-                    "horas": "15",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Yerly Flores",
-                    "horas": "15",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Jaime L\u00f3pez",
-                    "horas": "5",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Israel Tabarez",
-                    "horas": "5",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Jaime L\u00f3pez",
-                    "horas": "5",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "10",
-                    "horario": {}
-                },
-                "8": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "15",
-                    "horario": {}
-                },
-                "9": {
-                    "profesor": "Fernando Ruiz",
-                    "horas": "30",
-                    "horario": {}
-                }
-            },
-            "TC2038": {
-                "1": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "60",
-                    "horario": {}
-                }
-            },
-            "TC2007B": {
-                "1": {
-                    "profesor": "Yerly Flores",
-                    "horas": "15",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Yerly Flores",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Octavio Silva",
-                    "horas": "25",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "50",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "20",
-                    "horario": {}
+            "Luis Guadarrama": {
+                "Modulos": [
+                    "5",
+                    "6"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 5,
+                "Horas_Totales": 50,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            7,
+                            9
+                        ]
+                    ],
+                    "Lunes": [
+                        [
+                            8,
+                            10
+                        ]
+                    ],
+                    "Martes": [
+                        [
+                            8,
+                            9
+                        ]
+                    ]
                 }
             }
         },
-        "3": {
-            "TC1031": {
-                "1": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "60",
-                    "horario": {}
+        "TC1027-0": {
+            "Jaime L\u00f3pez": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            7,
+                            11
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1027-1": {
+            "Juan Alvarado": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Lunes": [
+                        [
+                            9,
+                            13
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1027-2": {
+            "Roberto Vera": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            17,
+                            19
+                        ]
+                    ],
+                    "Mi\u00e9rcoles": [
+                        [
+                            15,
+                            16
+                        ]
+                    ],
+                    "Lunes": [
+                        [
+                            14,
+                            15
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1027-3": {
+            "Mauricio Paletta": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            12,
+                            14
+                        ]
+                    ],
+                    "Jueves": [
+                        [
+                            16,
+                            18
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1032-0": {
+            "Israel Tabarez": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            13,
+                            17
+                        ]
+                    ]
+                }
+            }
+        },
+        "TI1015-0": {
+            "Jos\u00e9 Aguilera": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            7,
+                            11
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1028-0": {
+            "Roberto Vera": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            12,
+                            16
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1028-1": {
+            "Pedro Hernandez": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            12,
+                            14
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            18,
+                            20
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1028-2": {
+            "Jos\u00e9 Aguilera": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Lunes": [
+                        [
+                            17,
+                            19
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            17,
+                            19
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1028-3": {
+            "Mauricio Paletta": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            13,
+                            14
+                        ]
+                    ],
+                    "Martes": [
+                        [
+                            13,
+                            15
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            18,
+                            19
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1028-4": {
+            "Yerly Flores": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            12,
+                            15
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            11,
+                            12
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1028-5": {
+            "Yerly Flores": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            14,
+                            18
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1028-6": {
+            "Juan Alvarado": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            7,
+                            11
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1028-7": {
+            "Pedro Hernandez": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            15,
+                            19
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1031-0": {
+            "Roberto Leyva": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 60,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            9,
+                            13
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1001B": {
+            "Jorge Rodr\u00edguez": {
+                "Modulos": [
+                    "1",
+                    "4",
+                    "7"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 3,
+                "Horas_Totales": 16,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            7,
+                            10
+                        ]
+                    ]
                 }
             },
-            "TC1033": {
-                "1": {
-                    "profesor": "V\u00edctor Ma\u00f1on",
-                    "horas": "20",
-                    "horario": {}
+            "Mauricio Paletta": {
+                "Modulos": [
+                    "2",
+                    "3"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 3,
+                "Horas_Totales": 14,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            17,
+                            20
+                        ]
+                    ]
                 }
             },
-            "TC1001B": {
-                "1": {
-                    "profesor": "Jorge Rodr\u00edguez",
-                    "horas": "4",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "8",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
-                    "horas": "6",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Jorge Rodr\u00edguez",
-                    "horas": "8",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "24",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Octavio Silva",
-                    "horas": "6",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Jorge Rodr\u00edguez",
-                    "horas": "4",
-                    "horario": {}
+            "Roberto Leyva": {
+                "Modulos": [
+                    "5"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 5,
+                "Horas_Totales": 24,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            13,
+                            18
+                        ]
+                    ]
                 }
             },
-            "TC1004B": {
-                "1": {
-                    "profesor": "Jaime L\u00f3pez",
-                    "horas": "15",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Jaime L\u00f3pez",
-                    "horas": "15",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Jaime L\u00f3pez",
-                    "horas": "5",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Israel Tabarez",
-                    "horas": "5",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Israel Tabarez",
-                    "horas": "5",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "10",
-                    "horario": {}
-                },
-                "8": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "15",
-                    "horario": {}
-                },
-                "9": {
-                    "profesor": "Fernando Ruiz",
-                    "horas": "30",
-                    "horario": {}
+            "Octavio Silva": {
+                "Modulos": [
+                    "6"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 1,
+                "Horas_Totales": 6,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            15,
+                            16
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC2038-0": {
+            "Mauricio Paletta": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 60,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            8,
+                            12
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1004B": {
+            "Yerly Flores": {
+                "Modulos": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "Periodos": [
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            8,
+                            12
+                        ]
+                    ]
                 }
             },
-            "TC2038": {
-                "1": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "60",
-                    "horario": {}
+            "Israel Tabarez": {
+                "Modulos": [
+                    "5",
+                    "8"
+                ],
+                "Periodos": [
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 2,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            8,
+                            10
+                        ]
+                    ]
                 }
             },
-            "TC2008B": {
-                "1": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "8",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "12",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Ivan Olmos",
-                    "horas": "12",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "12",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "12",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "12",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Israel Tabarez",
-                    "horas": "12",
-                    "horario": {}
+            "Roberto Leyva": {
+                "Modulos": [
+                    "6",
+                    "7"
+                ],
+                "Periodos": [
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 3,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            7,
+                            10
+                        ]
+                    ]
                 }
             },
-            "TI1015": {
-                "1": {
-                    "profesor": "Roberto Vera",
-                    "horas": "20",
-                    "horario": {}
+            "Fernando Ruiz": {
+                "Modulos": [
+                    "9"
+                ],
+                "Periodos": [
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 3,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            7,
+                            10
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1033-0": {
+            "Mauricio Paletta": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            16,
+                            20
+                        ]
+                    ]
                 }
             }
         }
     },
     "2": {
-        "1": {
-            "TC2037": {
-                "1": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "60",
-                    "horario": {}
+        "TC3003B": {
+            "Roberto Leyva": {
+                "Modulos": [
+                    "1",
+                    "3"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 9,
+                "Horas_Totales": 44,
+                "Horarios": {
+                    "Lunes": [
+                        [
+                            7,
+                            10
+                        ]
+                    ],
+                    "Mi\u00e9rcoles": [
+                        [
+                            15,
+                            18
+                        ]
+                    ],
+                    "Jueves": [
+                        [
+                            16,
+                            19
+                        ]
+                    ]
                 }
             },
-            "TC2005B": {
-                "1": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "4",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "50",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "8",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "4",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Roberto Vera",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "4",
-                    "horario": {}
-                },
-                "8": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "30",
-                    "horario": {}
+            "Yerly Flores": {
+                "Modulos": [
+                    "2"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 3,
+                "Horas_Totales": 16,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            14,
+                            17
+                        ]
+                    ]
                 }
             },
-            "TC3004B": {
-                "1": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "12",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "24",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "24",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "30",
-                    "horario": {}
-                }
-            },
-            "TI3005B": {
-                "1": {
-                    "profesor": "Mar\u00eda Mirafuentes",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "60",
-                    "horario": {}
+            "Juan Alvarado": {
+                "Modulos": [
+                    "4"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 12,
+                "Horas_Totales": 60,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            11,
+                            18
+                        ]
+                    ],
+                    "Lunes": [
+                        [
+                            18,
+                            20
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            13,
+                            16
+                        ]
+                    ]
                 }
             }
         },
-        "2": {
-            "TC1002B": {
-                "1": {
-                    "profesor": "Jorge Rodr\u00edguez",
-                    "horas": "2",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Jorge Rodr\u00edguez",
-                    "horas": "2",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Jorge Rodr\u00edguez",
-                    "horas": "6",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "24",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Jorge Rodr\u00edguez",
-                    "horas": "16",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
-                    "horas": "8",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Jorge Rodr\u00edguez",
-                    "horas": "2",
-                    "horario": {}
+        "TC1002B": {
+            "Jorge Rodr\u00edguez": {
+                "Modulos": [
+                    "1",
+                    "2",
+                    "3",
+                    "5",
+                    "7"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 6,
+                "Horas_Totales": 28,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            7,
+                            13
+                        ]
+                    ]
                 }
             },
-            "TC2037": {
-                "1": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "60",
-                    "horario": {}
+            "Roberto Leyva": {
+                "Modulos": [
+                    "4"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 5,
+                "Horas_Totales": 24,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            12,
+                            14
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            10,
+                            13
+                        ]
+                    ]
                 }
             },
-            "TC2005B": {
-                "1": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "4",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "50",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "8",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "4",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "4",
-                    "horario": {}
-                },
-                "8": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "30",
-                    "horario": {}
-                }
-            },
-            "TC3002B": {
-                "1": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "30",
-                    "horario": {}
-                }
-            },
-            "TC3005B": {
-                "1": {
-                    "profesor": "Mar\u00eda Mirafuentes",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "50",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Roberto Vera",
-                    "horas": "60",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "10",
-                    "horario": {}
+            "Mauricio Paletta": {
+                "Modulos": [
+                    "6"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 2,
+                "Horas_Totales": 8,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            10,
+                            12
+                        ]
+                    ]
                 }
             }
         },
-        "3": {
-            "TC1030": {
-                "1": {
-                    "profesor": "Mauricio Paletta",
-                    "horas": "20",
-                    "horario": {}
+        "TI3005B": {
+            "Juan Alvarado": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1"
+                ],
+                "Horas_semana": 6,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            12,
+                            16
+                        ]
+                    ],
+                    "Martes": [
+                        [
+                            14,
+                            16
+                        ]
+                    ]
                 }
             },
-            "TC2037": {
-                "1": {
-                    "profesor": "Jos\u00e9 Aguilera",
-                    "horas": "60",
-                    "horario": {}
+            "Jos\u00e9 Aguilera": {
+                "Modulos": [
+                    "2"
+                ],
+                "Periodos": [
+                    "1"
+                ],
+                "Horas_semana": 6,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            18,
+                            20
+                        ]
+                    ],
+                    "Lunes": [
+                        [
+                            8,
+                            12
+                        ]
+                    ]
                 }
             },
-            "TC2006B": {
-                "1": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Yerly Flores",
-                    "horas": "30",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
-                    "horas": "30",
-                    "horario": {}
+            "Roberto Leyva": {
+                "Modulos": [
+                    "3"
+                ],
+                "Periodos": [
+                    "1"
+                ],
+                "Horas_semana": 12,
+                "Horas_Totales": 60,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            7,
+                            17
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            16,
+                            17
+                        ]
+                    ],
+                    "Mi\u00e9rcoles": [
+                        [
+                            8,
+                            9
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC3002B": {
+            "Mauricio Paletta": {
+                "Modulos": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 18,
+                "Horas_Totales": 90,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            8,
+                            16
+                        ]
+                    ],
+                    "Martes": [
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "Lunes": [
+                        [
+                            7,
+                            11
+                        ]
+                    ],
+                    "Mi\u00e9rcoles": [
+                        [
+                            8,
+                            9
+                        ]
+                    ]
                 }
             },
-            "TC3003B": {
-                "1": {
-                    "profesor": "V\u00edctor Ma\u00f1\u00f3n",
-                    "horas": "10",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "16",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Roberto Leyva",
-                    "horas": "34",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "60",
-                    "horario": {}
+            "Pedro Hernandez": {
+                "Modulos": [
+                    "4"
+                ],
+                "Periodos": [
+                    "2"
+                ],
+                "Horas_semana": 6,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Lunes": [
+                        [
+                            13,
+                            19
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC2006B": {
+            "Juan Alvarado": {
+                "Modulos": [
+                    "1",
+                    "3"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 10,
+                "Horas_Totales": 50,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            7,
+                            11
+                        ]
+                    ],
+                    "Viernes": [
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "Martes": [
+                        [
+                            19,
+                            20
+                        ]
+                    ],
+                    "Lunes": [
+                        [
+                            16,
+                            17
+                        ]
+                    ],
+                    "Jueves": [
+                        [
+                            16,
+                            17
+                        ]
+                    ]
                 }
             },
-            "TC3005B": {
-                "1": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "2": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "50",
-                    "horario": {}
-                },
-                "3": {
-                    "profesor": "Roberto Vera",
-                    "horas": "60",
-                    "horario": {}
-                },
-                "4": {
-                    "profesor": "Pedro Hernandez",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "5": {
-                    "profesor": "Mar\u00eda Mirafuentes",
-                    "horas": "40",
-                    "horario": {}
-                },
-                "6": {
-                    "profesor": "Luis Guadarrama",
-                    "horas": "20",
-                    "horario": {}
-                },
-                "7": {
-                    "profesor": "Juan Alvarado",
-                    "horas": "10",
-                    "horario": {}
+            "V\u00edctor Ma\u00f1\u00f3n": {
+                "Modulos": [
+                    "2"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 6,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            13,
+                            17
+                        ]
+                    ],
+                    "Mi\u00e9rcoles": [
+                        [
+                            16,
+                            18
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC2005B": {
+            "Juan Alvarado": {
+                "Modulos": [
+                    "1",
+                    "3",
+                    "6"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 42,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            16,
+                            20
+                        ]
+                    ]
+                }
+            },
+            "Luis Guadarrama": {
+                "Modulos": [
+                    "2",
+                    "4",
+                    "7"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 6,
+                "Horas_Totales": 58,
+                "Horarios": {
+                    "Mi\u00e9rcoles": [
+                        [
+                            7,
+                            10
+                        ]
+                    ],
+                    "Jueves": [
+                        [
+                            7,
+                            9
+                        ]
+                    ],
+                    "Lunes": [
+                        [
+                            8,
+                            9
+                        ]
+                    ]
+                }
+            },
+            "V\u00edctor Ma\u00f1\u00f3n": {
+                "Modulos": [
+                    "5"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 3,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            11,
+                            14
+                        ]
+                    ]
+                }
+            },
+            "Roberto Leyva": {
+                "Modulos": [
+                    "8"
+                ],
+                "Periodos": [
+                    "1",
+                    "2"
+                ],
+                "Horas_semana": 3,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Lunes": [
+                        [
+                            11,
+                            14
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC3005B": {
+            "Juan Alvarado": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 2,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            7,
+                            9
+                        ]
+                    ]
+                }
+            },
+            "V\u00edctor Ma\u00f1\u00f3n": {
+                "Modulos": [
+                    "2",
+                    "3"
+                ],
+                "Periodos": [
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 11,
+                "Horas_Totales": 110,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            7,
+                            16
+                        ]
+                    ],
+                    "Lunes": [
+                        [
+                            8,
+                            10
+                        ]
+                    ]
+                }
+            },
+            "Pedro Hernandez": {
+                "Modulos": [
+                    "4"
+                ],
+                "Periodos": [
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            13,
+                            17
+                        ]
+                    ]
+                }
+            },
+            "Mar\u00eda Mirafuentes": {
+                "Modulos": [
+                    "5"
+                ],
+                "Periodos": [
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 40,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            16,
+                            20
+                        ]
+                    ]
+                }
+            },
+            "Luis Guadarrama": {
+                "Modulos": [
+                    "6",
+                    "7"
+                ],
+                "Periodos": [
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 3,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            7,
+                            9
+                        ]
+                    ],
+                    "Jueves": [
+                        [
+                            8,
+                            9
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC3004B": {
+            "Luis Guadarrama": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1"
+                ],
+                "Horas_semana": 2,
+                "Horas_Totales": 12,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            7,
+                            9
+                        ]
+                    ]
+                }
+            },
+            "Octavio Silva": {
+                "Modulos": [
+                    "2"
+                ],
+                "Periodos": [
+                    "1"
+                ],
+                "Horas_semana": 5,
+                "Horas_Totales": 24,
+                "Horarios": {
+                    "Jueves": [
+                        [
+                            8,
+                            13
+                        ]
+                    ]
+                }
+            },
+            "Juan Alvarado": {
+                "Modulos": [
+                    "3",
+                    "5"
+                ],
+                "Periodos": [
+                    "1"
+                ],
+                "Horas_semana": 11,
+                "Horas_Totales": 54,
+                "Horarios": {
+                    "Lunes": [
+                        [
+                            10,
+                            20
+                        ]
+                    ],
+                    "Martes": [
+                        [
+                            18,
+                            19
+                        ]
+                    ]
+                }
+            },
+            "Mar\u00eda Mirafuentes": {
+                "Modulos": [
+                    "4"
+                ],
+                "Periodos": [
+                    "1"
+                ],
+                "Horas_semana": 6,
+                "Horas_Totales": 30,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            11,
+                            17
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC1030-0": {
+            "Mauricio Paletta": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 20,
+                "Horarios": {
+                    "Martes": [
+                        [
+                            7,
+                            11
+                        ]
+                    ]
+                }
+            }
+        },
+        "TC2037-0": {
+            "Jos\u00e9 Aguilera": {
+                "Modulos": [
+                    "1"
+                ],
+                "Periodos": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Horas_semana": 4,
+                "Horas_Totales": 60,
+                "Horarios": {
+                    "Viernes": [
+                        [
+                            16,
+                            20
+                        ]
+                    ]
                 }
             }
         }
