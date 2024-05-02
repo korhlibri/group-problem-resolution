@@ -18,7 +18,7 @@ def hoursCoursesTopics(nombre_archivo):
             
             tema = row[0]
             horas = row[2]
-            if tema is not '':
+            if tema != '':
                 data[tema] = horas
 
     return data   
