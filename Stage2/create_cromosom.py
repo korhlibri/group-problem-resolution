@@ -50,9 +50,9 @@ schedule_block = {'Lunes': [False] * 25 ,
 
 def get_horario(teacher, horas):
     original = horas
-    if horas > teachers_max[teacher]:
-        return {}
     days = list(teachers[teacher].keys())
+    if horas > len(days) * 13:
+        return {}
     copy_scheudle = {}
     for day in days:
         copy_scheudle[day] = []
@@ -151,7 +151,7 @@ def get_cromosoma():
                             "Horas_Totales": int(temp[i] * cont)
                         }
                         profe["Horarios"] = get_horario(i, round(temp[i] / 5))
-                        
+                        if profe["Horarios"] == {}: valid = False
                         for key in profe["Horarios"].keys():
                             for lista in profe["Horarios"][key]:
                                 for value in range(lista[0], lista[1]):
@@ -162,7 +162,7 @@ def get_cromosoma():
                         profes[i] = profe
                     if not valid: continue
                 materias_a[materia] = profes
-                print (materias)
+                #print (materias)
             else:
                 groups = groups_even
                 if semester == 1: groups = groups_odd
@@ -195,7 +195,7 @@ def get_cromosoma():
                     
                         
                         profes[i] = profe
-                    print(materia)
+                    #print(materia)
                     materias_a[materia + "-" + str(group)] = profes            
         general[semester] = materias_a
     return general
