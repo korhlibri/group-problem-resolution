@@ -4,6 +4,7 @@ import get_teachers
 import get_courses_period
 import get_professors_for_course
 import get_groups
+import get_max_hours
 import json
 import os
 from collections import defaultdict
@@ -20,6 +21,7 @@ hours = get_hours.hoursCoursesUDF()
 teachers = get_teachers.get_teachers()
 groups_even = get_groups.get_period(False)
 groups_odd = get_groups.get_period(True)
+teachers_max = get_max_hours.get_max_hours()
 
 
 # Directorio donde se guardarán los archivos JSON
@@ -33,6 +35,7 @@ save_dict_as_json(period_odd, os.path.join(directory, 'period_odd.json'))
 save_dict_as_json(professors_for_course, os.path.join(directory, 'professors_for_course.json'))
 save_dict_as_json(hours, os.path.join(directory, 'hours.json'))
 save_dict_as_json(teachers, os.path.join(directory, 'teachers.json'))
+save_dict_as_json(teachers_max, os.path.join(directory, 'teachers_max.json'))
 save_dict_as_json(groups_odd, os.path.join(directory, 'groups_odd.json'))
 
 
@@ -46,6 +49,9 @@ schedule_block = {'Lunes': [False] * 25 ,
 
 
 def get_horario(teacher, horas):
+    original = horas
+    if horas > teachers_max[teacher]:
+        return {}
     days = list(teachers[teacher].keys())
     copy_scheudle = {}
     for day in days:
@@ -53,6 +59,10 @@ def get_horario(teacher, horas):
     horario = {}
     n = 0
     while horas != 0:
+        # print('me cicle')
+        # print(horas)
+        # print(original)
+        # print(teacher)
         if n == 0 and len(days) != 0:
             m = random.randint(0, len(days) - 1)
             day = days.pop(m)
@@ -109,6 +119,11 @@ def get_cromosoma():
                     profes = {}
                     temp = {}
                     temp2 = {}
+                    schedule = {'Lunes': [False] * 25 ,
+                                'Martes': [False] * 25 ,
+                                'Miércoles': [False] * 25 ,
+                                'Jueves': [False] * 25 ,
+                                'Viernes': [False] * 25}
                     for modulo in hours[materia].keys():
                         teacher = random.choice(professors_for_course[materia][modulo])
                         hour = hours[materia][modulo]
@@ -126,7 +141,7 @@ def get_cromosoma():
                         temp[i] = temp[i] / cont
                         if float(temp[i]) < 5 * cont or float(temp[i]) % 1 != 0:
                             valid = False
-                        if not valid: continue
+                    if not valid: continue
                     for i in temp2.keys():
                         profe = {
                             "Modulos": temp2[i],
@@ -137,10 +152,17 @@ def get_cromosoma():
                         }
                         profe["Horarios"] = get_horario(i, round(temp[i] / 5))
                         
-                        
+                        for key in profe["Horarios"].keys():
+                            for lista in profe["Horarios"][key]:
+                                for value in range(lista[0], lista[1]):
+                                    if schedule[key][value] == True:
+                                        valid = False
+                                    else:
+                                        schedule[key][value] = True
                         profes[i] = profe
+                    if not valid: continue
                 materias_a[materia] = profes
-                # print (materias)
+                print (materias)
             else:
                 groups = groups_even
                 if semester == 1: groups = groups_odd
@@ -173,6 +195,7 @@ def get_cromosoma():
                     
                         
                         profes[i] = profe
+                    print(materia)
                     materias_a[materia + "-" + str(group)] = profes            
         general[semester] = materias_a
     return general

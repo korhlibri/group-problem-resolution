@@ -11,7 +11,7 @@ def save_dict_as_json(data, filename):
         json.dump(data, f, indent=4)
         
 poblation = {}
-n_poblation = 10
+n_poblation = 1
 
 for _ in range(n_poblation):
     poblation["Cromosoma" + str(_)] = create_cromosom.get_cromosoma()
