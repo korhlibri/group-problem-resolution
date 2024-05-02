@@ -14,6 +14,6 @@ poblation = {}
 n_poblation = 100
 
 for _ in range(n_poblation):
-    poblation["Cromosoma" + str(_)] = create_cromosom.get_cromosoma()
-        
+    poblation["Cromosoma" + str(_)] = create_cromosom.get_cromosoma(True)
+
 save_dict_as_json(poblation, os.path.join(directory, 'cromosomas.json'))

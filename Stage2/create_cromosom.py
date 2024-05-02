@@ -38,211 +38,85 @@ save_dict_as_json(teachers, os.path.join(directory, 'teachers.json'))
 save_dict_as_json(teachers_max, os.path.join(directory, 'teachers_max.json'))
 save_dict_as_json(groups_odd, os.path.join(directory, 'groups_odd.json'))
 
+days = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes']
 
-schedule_block = {'Lunes': [False] * 25 ,
-                  'Martes': [False] * 25 ,
-                  'Miercoles': [False] * 25 ,
-                  'Jueves': [False] * 25 ,
-                  'Viernes': [False] * 25}
-
-# print(schedule_block)
+gen = ['TC3008', 'G1', 'P2', 'M1', 'Victor Manon', '#Horas a la semana', 'Horario']
 
 
-def get_horario(teacher, horas):
-    original = horas
-    days = list(teachers[teacher].keys())
-    if horas > len(days) * 13:
-        return {}
-    copy_scheudle = {}
-    for day in days:
-        copy_scheudle[day] = []
-    horario = {}
-    n = 0
-    while horas != 0:
-        # print('me cicle')
-        # print(horas)
-        # print(original)
-        # print(teacher)
-        if n == 0 and len(days) != 0:
-            m = random.randint(0, len(days) - 1)
-            day = days.pop(m)
-            period = random.randint(0, len(teachers[teacher][day]) - 1)
-            if period not in copy_scheudle[day]:
-                copy_scheudle[day].append(period)
-                inicio = random.randint(int(teachers[teacher][day][period][0]), int(teachers[teacher][day][period][1]) - 1)
-                horario[day] = [[inicio, inicio + 1]]
-                horas -= 1
-        else:
-            if len(days) == len(list(teachers[teacher].keys())):
-                n = random.randint(0,5)
-                continue
-            else:
-                day = random.choice(list(horario.keys()))
-                periodo = random.randint(0, len(horario[day]) - 1)
-                if n < 4:
-                    if horario[day][periodo][0] - 1 >= 7:
-                        horario[day][periodo] = [horario[day][periodo][0] - 1, horario[day][periodo][1]]
-                        horas -= 1
-                else:
-                    if horario[day][periodo][1] + 1 <= 20:
-                        horario[day][periodo] = [horario[day][periodo][0], horario[day][periodo][1] + 1]
-                        horas -= 1 
-        n = random.randint(0,5)
-                
-            
-            #day = random.choice(list(horario.keys()))
-    return horario
-            
-            
-            
+def get_cromosoma(semester):
     
-def get_cromosoma():    
-    general = {}
-    for semester in range(1,3):
-        period = period_even
-        if semester == 1: period = period_odd
-        materias = []
-        for periodo in range(1, 4):
-            materias += period[str(periodo)]
-        materias = list(set(materias))
-        materias_a = {}
-        for materia in materias:
-            cont = 0
-            periodos = []
-            for i in range(1,4):
-                if materia in period[str(i)]: 
-                    cont +=1
-                    periodos.append(str(i))
-            if materia[-1] == 'B':
-                valid = False
-                while not valid:
-                    profes = {}
-                    temp = {}
-                    temp2 = {}
-                    schedule = {'Lunes': [False] * 25 ,
-                                'Martes': [False] * 25 ,
-                                'Miércoles': [False] * 25 ,
-                                'Jueves': [False] * 25 ,
-                                'Viernes': [False] * 25}
-                    for modulo in hours[materia].keys():
-                        teacher = random.choice(professors_for_course[materia][modulo])
-                        hour = hours[materia][modulo]
-                        if teacher in temp:
-                            temp[teacher] += int(hour)
-                        else:
-                            temp[teacher] = int(hour)
-                            
-                        if teacher in temp2:
-                            temp2[teacher].append(modulo)
-                        else:
-                            temp2[teacher] = [modulo]
-                    valid = True
-                    for i in temp.keys():
-                        temp[i] = temp[i] / cont
-                        if float(temp[i]) < 5 * cont or float(temp[i]) % 1 != 0:
-                            valid = False
-                    if not valid: continue
-                    for i in temp2.keys():
-                        profe = {
-                            "Modulos": temp2[i],
-                            "Periodos": periodos,
-                            #"Horas": int(temp[i] * cont)
-                            "Horas_semana": round(temp[i] / 5),
-                            "Horas_Totales": int(temp[i] * cont)
-                        }
-                        profe["Horarios"] = get_horario(i, round(temp[i] / 5))
-                        if profe["Horarios"] == {}: valid = False
-                        for key in profe["Horarios"].keys():
-                            for lista in profe["Horarios"][key]:
-                                for value in range(lista[0], lista[1]):
-                                    if schedule[key][value] == True:
-                                        valid = False
-                                    else:
-                                        schedule[key][value] = True
-                        profes[i] = profe
-                    if not valid: continue
-                materias_a[materia] = profes
-                #print (materias)
+    
+    groups = groups_even
+    if semester: groups = groups_odd
+    periods = period_even
+    if semester: periods = period_odd
+    
+    if semester: groups_odd
+    materias = list(groups.keys())
+    n_gen = 0
+    
+    for materia in list(set(materias)):
+        temp = 0
+        group = groups[materia]
+        cont = 0 
+        for i in range(1,4):
+            if materia in periods[str(i)]:
+                cont += 1
+        modulos = len(list(professors_for_course[materia].keys()))
+        n_gen += group* cont* modulos
+        
+    
+    
+    
+    cromosoma = []
+    for _ in range(n_gen):
+        gen = []
+        materia = random.choice(list(set(materias)))
+        gen.append(materia)
+        group = random.randint(1, int(groups[materia]))
+        gen.append(group)
+        while True:
+            p = random.randint(1,3)
+            if materia in periods[str(p)]:
+                gen.append(p) 
+                break
+        
+        modulo = random.choice(list(professors_for_course[materia].keys()))
+        gen.append(int(modulo)) 
+        
+        teacher = random.choice(list(professors_for_course[materia][modulo]))
+        gen.append(teacher)
+        
+        hour = hours[materia][modulo]
+        cont = 0 
+        for i in range(1,4):
+            if materia in periods[str(i)]:
+                cont += 1
+        hour = int(hour) / cont
+        if (hour % 1 != 0):
+            hour = int(hour + random.choice([-.5, 0.5]))
+        hour = int(hour / 5)
+        gen.append(hour)
+        
+        horario = {}
+        while hour != 0:
+            day = random.choice(days)
+            new_hour = random.randint(7,20)
+            if day in horario:
+                if new_hour not in horario[day]:
+                    horario[day].append(new_hour)
+                    hour -= 1
             else:
-                groups = groups_even
-                if semester == 1: groups = groups_odd
-                for group in range(groups[materia]):
-                    profes = {}
-                    temp = {}
-                    temp2 = {}
-                    teacher = random.choice(professors_for_course[materia]['1'])
-                    hour = hours[materia]['1']
-                    if teacher in temp:
-                        temp[teacher] += int(hour)
-                    else:
-                        temp[teacher] = int(hour)
-                        
-                    if teacher in temp2:
-                        temp2[teacher].append('1')
-                    else:
-                        temp2[teacher] = ['1']
-                    for i in temp2.keys():
-                        temp[i] = temp[i] / cont
-                        profe = {
-                            "Modulos": temp2[i],
-                            "Periodos": periodos,
-                            #"Horas": int(temp[i] * cont)
-                            "Horas_semana": round(temp[i] / 5),
-                            "Horas_Totales": int(temp[i] * cont)
-                        }
-                        profe["Horarios"] = get_horario(i, round(temp[i] / 5))
-                    
-                    
-                        
-                        profes[i] = profe
-                    #print(materia)
-                    materias_a[materia + "-" + str(group)] = profes            
-        general[semester] = materias_a
-    return general
-                    
-                    
-            
-           
+                horario[day] = [new_hour]
+                hour -= 1
         
-            
+        for day in horario.keys():
+            horario[day].sort()
+        gen.append(horario)
+        cromosoma.append(gen)
         
-        
-get_cromosoma()
+    return cromosoma
+
+cromosom = get_cromosoma(True)
 
 
-# # Generar población aleatoria
-# for _ in range(n_poblacion):
-#     horarios = {}
-#     for materia, clases in Materias.items():
-#         horarios_materia = {}
-#         for modulo, profesores in clases.items():
-#             profesor = random.choice(profesores)
-#             horario_profesor = random.choice(Periodo[materia])
-#             horas_semana = Horas[materia][str(horario_profesor)] // len(profes[profesor])  
-#             horario = {}
-#             for dia, rangos_disponibles in profes[profesor].items():
-#                 rango_disponible = random.choice(rangos_disponibles)
-#                 hora_inicial, hora_final = rango_disponible
-#                 horas_necesarias = min(horas_semana, hora_final - hora_inicial)
-#                 hora_inicio_clase = random.randint(hora_inicial, hora_final - 2)  
-#                 duracion_clase = random.choice([2, 4])
-#                 hora_final_clase = hora_inicio_clase + duracion_clase
-#                 while hora_final_clase not in range(hora_inicio_clase + 2, hora_final + 1) or hora_final_clase - hora_inicio_clase != duracion_clase:
-#                     hora_inicio_clase = random.randint(hora_inicial, hora_final - 2)
-#                     hora_final_clase = hora_inicio_clase + duracion_clase
-#                 horario[dia] = {"Hora Inicial": hora_inicio_clase, "Hora Final": hora_final_clase}
-#             horarios_materia[modulo] = {"Profesor": profesor, "Horario": horario}
-#         horarios[materia] = horarios_materia
-#     poblacion.append(horarios)
-
-# # Imprimir la población generada
-# for idx, individuo in enumerate(poblacion, 1):
-#     print()
-#     print(f"Individuo {idx}:")
-#     for materia, modulos in individuo.items():
-#         print(f"Materia: {materia}")
-#         for modulo, detalles in modulos.items():
-#             print(f"Módulo: {modulo}")
-#             print(f"Profesor: {detalles['Profesor']}")
-#             for dia, horas in detalles['Horario'].items():
-#                 print(f"{dia}: {horas['Hora Inicial']} - {horas['Hora Final']}")
