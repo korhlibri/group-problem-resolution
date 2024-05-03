@@ -24,8 +24,8 @@ scheduleCollisionStu :  104
 breakTime :  100 YAAAAAAAAAAAAAAAAAAAA
 noMoreTwoAndPairs :  105 YAAAAAAAAAAAAAAAAAAAA
 availableProf :  106 YAAAAAAAAAAAAAAAAAAAAAA
-definedSchedulesUFsAndProf :  106
-minMaxProfTotal :  104
+definedSchedulesUFsAndProf :  106 ???
+minMaxProfTotal :  104 Rich
 catProfModuleRel :  104
 oddHours :  100
 noWednesday :  10
@@ -38,18 +38,41 @@ notAfterSeven :  13
 gen = ['TC3008', 'G1', 'P2', 'M1', 'Victor Manon', '#Horas a la semana', 'Horario']
 def calculate (cromosoma, restrictions, semester):
     teachers = {}
+    subjects = {}
+    semester = {}
     castigo = 0
     for gen in cromosoma:
         if gen[4] in teachers:
             if (('Lunes' in gen[6].keys() and 'Jueves' in gen[6].keys()) or ('Martes' in gen[6].keys() and 'Viernes' in gen[6].keys())):
                 pass
             else:
-                castigo += restrictions["noMoreTwoAndPairs"]
+                castigo += restrictions["noMoreTwoAndPairs"] 
             for day in gen[6].keys():
                 if day in teachers[gen[4]]:
                     if len(gen[6][day]) > 2:
                         castigo += restrictions["noMoreTwoAndPairs"]
                     for hour in gen[6][day]:
+                        if gen[0] in subjects:
+                            if gen[1] in subjects[gen[0]]:
+                                if gen[2] in subjects[gen[0]][gen[1]]:
+                                    if hour in subjects[gen[0]][gen[1]][gen[2]]:
+                                        castigo += restrictions["scheduleCollisionStu"]
+                                    else:
+                                        subjects[gen[0]][gen[1]][gen[2]].append(hour)
+                                        subjects[gen[0]][gen[1]][gen[2]].sort()
+                                else:
+                                    subjects[gen[0]][gen[1]][gen[2]] = [hour]
+                            else:
+                                subjects[gen[0]][gen[1]] = {
+                                    gen[2] : [hour]
+                                }
+                        else:
+                            subjects[gen[0]] = {
+                                gen[1] : {
+                                    
+                                }
+                            }
+
                         if hour == 13 or hour == 14:
                             castigo += restrictions["breakTime"]
                         if hour in teachers[gen[4]][day]:
@@ -67,11 +90,11 @@ def calculate (cromosoma, restrictions, semester):
                                 castigo += restrictions["availableProf"]
                         else:
                             castigo += restrictions["availableProf"]
-                            
                 else:
                     teachers[gen[4]][day] = gen[6][day]
         else:
             teachers[gen[4]] = gen[6]
+            
         
         
     
