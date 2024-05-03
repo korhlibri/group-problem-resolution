@@ -28,8 +28,7 @@ def restrictionsGroups():
         randomNum = rand.randint(10, 15)
         restrictions[lightRestrictions[i]] = randomNum
 
-    for clave, valor in restrictions.items():
-        print(clave, ": ", valor)
+  
 
     return restrictions
         

@@ -1,4 +1,6 @@
 import create_cromosom
+import restriccions_function
+import restrictions
 import os
 import json
 
@@ -10,10 +12,18 @@ def save_dict_as_json(data, filename):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
         
-poblation = {}
-n_poblation = 100
+poblation = []
+n_poblation = 5
 
 for _ in range(n_poblation):
-    poblation["Cromosoma" + str(_)] = create_cromosom.get_cromosoma(True)
+    poblation.append(create_cromosom.get_cromosoma(True))
 
-save_dict_as_json(poblation, os.path.join(directory, 'cromosomas.json'))
+restrictions_dict = restrictions.restrictionsGroups()
+
+cromosom_sort = []
+
+for i in poblation:
+    cromosom_sort.append(restriccions_function.calculate(i,restrictions_dict, True))
+    
+cromosom_sort.sort()
+print(cromosom_sort)
