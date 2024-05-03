@@ -41,14 +41,10 @@ def hoursCoursesUDF():
     with open(f"{mod_path}/csvs/UDF.csv","r") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if os.name == 'nt':
-                if "B" not in row["ï»¿Clave"]:
-                    #dic["1"] = row['Horas']
-                    hoursUDF[row["ï»¿Clave"]] = {'1': row['Horas']}
-            else:
-                if "B" not in row["\ufeffClave"]:
-                    #dic["1"] = row['Horas']
-                    hoursUDF[row["\ufeffClave"]] = {'1': row['Horas']}
+            print(row)
+            if "B" not in row[list(row.keys())[0]]:
+                #dic["1"] = row['Horas']
+                hoursUDF[row[list(row.keys())[0]]] = {'1': row['Horas']}
 
 
     return hoursUDF
