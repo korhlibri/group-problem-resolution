@@ -11,7 +11,8 @@ def restrictionsGroups():
                          "definedSchedulesUFsAndProf",
                          "minMaxProfTotal",
                          "catProfModuleRel",
-                         "oddHours"]
+                         "oddHours",
+                         "noCapacity"]
     
     lightRestrictions = ["noWednesday",
                          "plantProfModuleRel",

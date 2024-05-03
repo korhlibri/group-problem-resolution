@@ -32,13 +32,14 @@ availableProf :  106 YAAAAAAAAAAAAAAAAAAAAAA
 definedSchedulesUFsAndProf :  106   YAAAAAAAAAAAAAAAAAAAA
 minMaxProfTotal :  104 YAAAAAAAAAAAAAAAAAAAAAA
 catProfModuleRel :  104
-oddHours :  100
+oddHours :  100 YAAAAAAAAAAAAAAAAAAAAAAAAAAa
 noWednesday :  10 YAAAAAAAAAAAA
 plantProfModuleRel :  15
 minCatProf :  10
-continousSchedule :  10
+continousSchedule :  10 Yaaaaaaaaaaaa
 onlyEight :  13 Yaaaaaaaaaaaaaaaaaaaaaaa
-notAfterSeven :  13
+notAfterSeven :  13 YAaaaaaaaaaaaaaaaa
+noCapacity: 11 Yaaaaaaaaaaaaaa
 """
 gen = ['TC3008', 'G1', 'P2', 'M1', 'Victor Manon', '#Horas a la semana', 'Horario']
 def calculate (cromosoma, restrictions, semester):
@@ -48,6 +49,8 @@ def calculate (cromosoma, restrictions, semester):
     subjects = {}
     castigo = 0
     for gen in cromosoma:
+        if gen[4] not in professors_for_course[gen[0]]:
+            castigo += restrictions["noCapacity"] 
         if gen[4] in teachers:
             if (('Lunes' in gen[6].keys() and 'Jueves' in gen[6].keys()) or ('Martes' in gen[6].keys() and 'Viernes' in gen[6].keys())):
                 pass
@@ -59,7 +62,13 @@ def calculate (cromosoma, restrictions, semester):
                 if day in teachers[gen[4]]:
                     if len(gen[6][day]) > 2:
                         castigo += restrictions["noMoreTwoAndPairs"]
+                    previous_hour = gen[6][day][0] - 1
+                    if (gen[6][day][0] % 2 != 0):
+                        castigo += restrictions["oddHours"]
                     for hour in gen[6][day]:
+                        if previous_hour != hour - 1:
+                            castigo += restrictions["continousSchedule"]
+                        previous_hour = hour
                         if gen[4] in teachers_udf:
                             teachers_udf[gen[4]] += 5
                         else:
@@ -135,10 +144,6 @@ def calculate (cromosoma, restrictions, semester):
     for teacher in teachers_udf.keys():
         if int(udf_teacher[teacher]) > int(teachers_udf[teacher] / 20):
             castigo += (restrictions["minMaxProfTotal"] * (int(udf_teacher[teacher]) - int (teachers_udf[teacher] / 20)))
-
-            
-        
-        
     
         #print(castigo)
     return [castigo, cromosoma]
