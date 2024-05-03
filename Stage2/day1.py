@@ -28,21 +28,5 @@ for i in poblation:
     
 cromosom_sort.sort()
 
-indexs = []
-for i in range(0, 50):
-    indexs.append(i)
-
-cromosom_sort = cromosom_sort[:50]
-second_generation = []
-
-for _ in range (0,25):
-    n = random.randint(0, len(indexs) - 1)
-    n = indexs.pop(n)
-    
-    
-    m = random.randint(0, len(indexs) - 1)
-    m = indexs.pop(m)
-    
-    second_generation.append((cromosom_sort[n][1], cromosom_sort[m][1]))
-    
-print(len(second_generation))
+for i in cromosom_sort:
+    print(i[0])

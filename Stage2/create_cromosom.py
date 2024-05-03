@@ -95,6 +95,8 @@ def get_cromosoma(semester):
         hour = int(hour) / cont
         if (hour % 1 != 0):
             hour = int(hour + random.choice([-.5, 0.5]))
+            if hour == 0:
+                hour = 1
         hour = int(hour / 5)
         gen.append(hour)
         
