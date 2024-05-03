@@ -24,7 +24,7 @@ def tournament(poblation, n_parents):
             candidates.append(random.choice(cromosom_sort))
         parent_2 = min(candidates)
         
-        parents.append(parent_1[1], parent_2[1])
+        parents.append((parent_1[1], parent_2[1]))
 
     return cromosom_sort, parents
 
