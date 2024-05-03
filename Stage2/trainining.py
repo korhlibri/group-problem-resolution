@@ -11,6 +11,7 @@ from create_cromosom import get_cromosoma
 from restriccions_function import calculate
 from restrictions import restrictionsGroups
 from tournament import tournament
+from plot_score import plot_score
 
 #gen = ['TC3008', 'G1', 'P2', 'M1', 'Victor Manon', '#Horas a la semana', 'Horario']
 
@@ -41,12 +42,13 @@ import mutation_operator
 def evolution(population, epochs):
     ep = 0
     cost_hist = []
+    
     while ep < epochs:
         temp_pop = []
         len_pop = len(population)
         penalisations, selected_individuals = tournament(population, 45)
-
-        cost_hist.append(penalisations[0][0])
+        best_score = penalisations[0][0]
+        cost_hist.append(best_score)
 
         for ind in penalisations[:10]:
             temp_pop.append(ind[1])
@@ -54,17 +56,9 @@ def evolution(population, epochs):
         #print(len(temp_pop))
 
         #print('pe: ',penalisations[0])
-        '''print('inds1: ',len(selected_individuals))
-        #print('inds1: ',selected_individuals)
-        #print('inds: ',selected_individuals)
-        print('inds: ',len(selected_individuals[0]))
-        #print('inds: ',selected_individuals[0])
-        print('inds: ',len(selected_individuals[0][0]))
-        print('inds: ',len(selected_individuals[1][1]))
-        print('inds: ',len(selected_individuals[2][1]))'''
         i = 0
         while len(temp_pop) != len_pop:
-            genetic_op = choices(population=[0,1,2], weights=[1, 49, 50])[0] #seleccion de operadores geneticos temporal, se queda fija para propositos de prueba
+            genetic_op = choices(population=[0,1,2], weights=[0.0, 0.1, 0.9])[0] #seleccion de operadores geneticos temporal, se queda fija para propositos de prueba
             #selected_individuals = choices(population=population, k=2)#esta es una seleccion de individuos temporal, regresa 2 individuos aleatorios
 
             #print(selected_individuals)
@@ -73,7 +67,7 @@ def evolution(population, epochs):
                 temp_pop.append(temp_new[0])
                 temp_pop.append(temp_new[1])
             elif genetic_op == 1:#crossover point
-                points = choices([1, 2, 3, 4, 5], weights=[20, 20, 5, 5, 5])
+                points = choices([1, 2, 3, 4, 5], weights=[.35, .35, .1, .1, .1])
                 temp_new = multi_point_crossover.multiCross(points, selected_individuals[i][0], selected_individuals[i][1])
                 temp_pop.append(temp_new[0])
                 temp_pop.append(temp_new[1])
@@ -84,15 +78,17 @@ def evolution(population, epochs):
             i+=1
         ep += 1
         population = temp_pop
-        print(ep)
+        print(f"epoch: {ep} ---- best score: {best_score}")
     return population, cost_hist
 
 population = []
 
 n_population = 100
-
+epochs = 100
 _,population = population_initialization(n_population)
-population, cost_hist = evolution(population, 30)
+population, cost_hist = evolution(population, epochs)
 
 print(population)
 print(cost_hist)
+print(np.min(cost_hist))
+plot_score(cost_hist)
