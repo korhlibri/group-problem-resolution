@@ -87,6 +87,24 @@
             "Roberto Vera"
         ]
     },
+    "TC3002B": {
+        "1": [
+            "Juan Alvarado",
+            "Roberto Leyva",
+            "Mauricio Paletta"
+        ],
+        "2": [
+            "Roberto Leyva",
+            "Mauricio Paletta"
+        ],
+        "3": [
+            "Mauricio Paletta",
+            "Jos\u00e9 Aguilera"
+        ],
+        "4": [
+            "Pedro Hernandez"
+        ]
+    },
     "TC3005B": {
         "1": [
             "Juan Alvarado",
@@ -123,24 +141,22 @@
             "Luis Guadarrama"
         ]
     },
-    "TC2006B": {
+    "TI3005B": {
         "1": [
-            "V\u00edctor Ma\u00f1\u00f3n",
             "Juan Alvarado",
-            "Roberto Leyva",
-            "Yerly Flores"
+            "Luis Guadarrama",
+            "Mar\u00eda Mirafuentes"
         ],
         "2": [
-            "V\u00edctor Ma\u00f1\u00f3n",
             "Juan Alvarado",
-            "Roberto Leyva",
-            "Yerly Flores"
+            "Mauricio Paletta",
+            "Jos\u00e9 Aguilera",
+            "Luis Guadarrama",
+            "Pedro Hernandez",
+            "Roberto Vera"
         ],
         "3": [
-            "V\u00edctor Ma\u00f1\u00f3n",
-            "Juan Alvarado",
-            "Roberto Leyva",
-            "Yerly Flores"
+            "Roberto Leyva"
         ]
     },
     "TC1001B": {
@@ -171,154 +187,6 @@
         "7": [
             "Jorge Rodr\u00edguez",
             "Octavio Silva"
-        ]
-    },
-    "TC1002B": {
-        "1": [
-            "Jorge Rodr\u00edguez"
-        ],
-        "2": [
-            "Jorge Rodr\u00edguez"
-        ],
-        "3": [
-            "Jorge Rodr\u00edguez"
-        ],
-        "4": [
-            "V\u00edctor Ma\u00f1\u00f3n",
-            "Juan Alvarado",
-            "Roberto Leyva",
-            "Mauricio Paletta"
-        ],
-        "5": [
-            "Jorge Rodr\u00edguez"
-        ],
-        "6": [
-            "V\u00edctor Ma\u00f1\u00f3n",
-            "Mauricio Paletta"
-        ],
-        "7": [
-            "Jorge Rodr\u00edguez"
-        ]
-    },
-    "TC2005B": {
-        "1": [
-            "Juan Alvarado",
-            "Luis Guadarrama",
-            "Mar\u00eda Mirafuentes"
-        ],
-        "2": [
-            "V\u00edctor Ma\u00f1\u00f3n",
-            "Juan Alvarado",
-            "Roberto Leyva",
-            "Mauricio Paletta",
-            "Jos\u00e9 Aguilera",
-            "Luis Guadarrama",
-            "Pedro Hernandez"
-        ],
-        "3": [
-            "Juan Alvarado",
-            "Luis Guadarrama"
-        ],
-        "4": [
-            "Juan Alvarado",
-            "Luis Guadarrama"
-        ],
-        "5": [
-            "V\u00edctor Ma\u00f1\u00f3n",
-            "Roberto Vera"
-        ],
-        "6": [
-            "V\u00edctor Ma\u00f1\u00f3n",
-            "Juan Alvarado",
-            "Roberto Leyva",
-            "Mauricio Paletta",
-            "Jos\u00e9 Aguilera",
-            "Pedro Hernandez"
-        ],
-        "7": [
-            "Juan Alvarado",
-            "Mauricio Paletta",
-            "Luis Guadarrama",
-            "Mar\u00eda Mirafuentes"
-        ],
-        "8": [
-            "Roberto Leyva"
-        ]
-    },
-    "TC3004B": {
-        "1": [
-            "Juan Alvarado",
-            "Luis Guadarrama"
-        ],
-        "2": [
-            "Juan Alvarado",
-            "Octavio Silva"
-        ],
-        "3": [
-            "Juan Alvarado",
-            "Luis Guadarrama",
-            "Mar\u00eda Mirafuentes"
-        ],
-        "4": [
-            "Juan Alvarado",
-            "Luis Guadarrama",
-            "Mar\u00eda Mirafuentes"
-        ],
-        "5": [
-            "Juan Alvarado",
-            "Luis Guadarrama",
-            "Mar\u00eda Mirafuentes"
-        ]
-    },
-    "TC1004B": {
-        "1": [
-            "Yerly Flores",
-            "Jaime L\u00f3pez",
-            "Israel Tabarez"
-        ],
-        "2": [
-            "Yerly Flores",
-            "Jaime L\u00f3pez",
-            "Israel Tabarez"
-        ],
-        "3": [
-            "Yerly Flores",
-            "Jaime L\u00f3pez",
-            "Israel Tabarez"
-        ],
-        "4": [
-            "Yerly Flores",
-            "Jaime L\u00f3pez",
-            "Israel Tabarez"
-        ],
-        "5": [
-            "Yerly Flores",
-            "Jaime L\u00f3pez",
-            "Israel Tabarez"
-        ],
-        "6": [
-            "V\u00edctor Ma\u00f1\u00f3n",
-            "Juan Alvarado",
-            "Roberto Leyva",
-            "Mauricio Paletta",
-            "Jos\u00e9 Aguilera",
-            "Pedro Hernandez"
-        ],
-        "7": [
-            "V\u00edctor Ma\u00f1\u00f3n",
-            "Juan Alvarado",
-            "Roberto Leyva",
-            "Mauricio Paletta",
-            "Jos\u00e9 Aguilera"
-        ],
-        "8": [
-            "Jos\u00e9 Aguilera",
-            "Pedro Hernandez",
-            "Israel Tabarez"
-        ],
-        "9": [
-            "Fernando Ruiz",
-            "Israel Tabarez"
         ]
     },
     "TC3003B": {
@@ -376,6 +244,57 @@
             "Israel Tabarez"
         ]
     },
+    "TC1004B": {
+        "1": [
+            "Yerly Flores",
+            "Jaime L\u00f3pez",
+            "Israel Tabarez"
+        ],
+        "2": [
+            "Yerly Flores",
+            "Jaime L\u00f3pez",
+            "Israel Tabarez"
+        ],
+        "3": [
+            "Yerly Flores",
+            "Jaime L\u00f3pez",
+            "Israel Tabarez"
+        ],
+        "4": [
+            "Yerly Flores",
+            "Jaime L\u00f3pez",
+            "Israel Tabarez"
+        ],
+        "5": [
+            "Yerly Flores",
+            "Jaime L\u00f3pez",
+            "Israel Tabarez"
+        ],
+        "6": [
+            "V\u00edctor Ma\u00f1\u00f3n",
+            "Juan Alvarado",
+            "Roberto Leyva",
+            "Mauricio Paletta",
+            "Jos\u00e9 Aguilera",
+            "Pedro Hernandez"
+        ],
+        "7": [
+            "V\u00edctor Ma\u00f1\u00f3n",
+            "Juan Alvarado",
+            "Roberto Leyva",
+            "Mauricio Paletta",
+            "Jos\u00e9 Aguilera"
+        ],
+        "8": [
+            "Jos\u00e9 Aguilera",
+            "Pedro Hernandez",
+            "Israel Tabarez"
+        ],
+        "9": [
+            "Fernando Ruiz",
+            "Israel Tabarez"
+        ]
+    },
     "TC2007B": {
         "1": [
             "V\u00edctor Ma\u00f1\u00f3n",
@@ -401,40 +320,121 @@
             "Luis Guadarrama"
         ]
     },
-    "TC3002B": {
+    "TC1002B": {
         "1": [
+            "Jorge Rodr\u00edguez"
+        ],
+        "2": [
+            "Jorge Rodr\u00edguez"
+        ],
+        "3": [
+            "Jorge Rodr\u00edguez"
+        ],
+        "4": [
+            "V\u00edctor Ma\u00f1\u00f3n",
             "Juan Alvarado",
             "Roberto Leyva",
             "Mauricio Paletta"
         ],
-        "2": [
-            "Roberto Leyva",
+        "5": [
+            "Jorge Rodr\u00edguez"
+        ],
+        "6": [
+            "V\u00edctor Ma\u00f1\u00f3n",
             "Mauricio Paletta"
         ],
-        "3": [
-            "Mauricio Paletta",
-            "Jos\u00e9 Aguilera"
-        ],
-        "4": [
-            "Pedro Hernandez"
+        "7": [
+            "Jorge Rodr\u00edguez"
         ]
     },
-    "TI3005B": {
+    "TC3004B": {
+        "1": [
+            "Juan Alvarado",
+            "Luis Guadarrama"
+        ],
+        "2": [
+            "Juan Alvarado",
+            "Octavio Silva"
+        ],
+        "3": [
+            "Juan Alvarado",
+            "Luis Guadarrama",
+            "Mar\u00eda Mirafuentes"
+        ],
+        "4": [
+            "Juan Alvarado",
+            "Luis Guadarrama",
+            "Mar\u00eda Mirafuentes"
+        ],
+        "5": [
+            "Juan Alvarado",
+            "Luis Guadarrama",
+            "Mar\u00eda Mirafuentes"
+        ]
+    },
+    "TC2005B": {
         "1": [
             "Juan Alvarado",
             "Luis Guadarrama",
             "Mar\u00eda Mirafuentes"
         ],
         "2": [
+            "V\u00edctor Ma\u00f1\u00f3n",
             "Juan Alvarado",
+            "Roberto Leyva",
             "Mauricio Paletta",
             "Jos\u00e9 Aguilera",
             "Luis Guadarrama",
-            "Pedro Hernandez",
-            "Roberto Vera"
+            "Pedro Hernandez"
         ],
         "3": [
+            "Juan Alvarado",
+            "Luis Guadarrama"
+        ],
+        "4": [
+            "Juan Alvarado",
+            "Luis Guadarrama"
+        ],
+        "5": [
+            "V\u00edctor Ma\u00f1\u00f3n",
+            "Roberto Vera"
+        ],
+        "6": [
+            "V\u00edctor Ma\u00f1\u00f3n",
+            "Juan Alvarado",
+            "Roberto Leyva",
+            "Mauricio Paletta",
+            "Jos\u00e9 Aguilera",
+            "Pedro Hernandez"
+        ],
+        "7": [
+            "Juan Alvarado",
+            "Mauricio Paletta",
+            "Luis Guadarrama",
+            "Mar\u00eda Mirafuentes"
+        ],
+        "8": [
             "Roberto Leyva"
+        ]
+    },
+    "TC2006B": {
+        "1": [
+            "V\u00edctor Ma\u00f1\u00f3n",
+            "Juan Alvarado",
+            "Roberto Leyva",
+            "Yerly Flores"
+        ],
+        "2": [
+            "V\u00edctor Ma\u00f1\u00f3n",
+            "Juan Alvarado",
+            "Roberto Leyva",
+            "Yerly Flores"
+        ],
+        "3": [
+            "V\u00edctor Ma\u00f1\u00f3n",
+            "Juan Alvarado",
+            "Roberto Leyva",
+            "Yerly Flores"
         ]
     }
 }
