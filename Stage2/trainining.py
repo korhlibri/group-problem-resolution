@@ -1,6 +1,9 @@
 import numpy as np
 from random import randint, choice, choices
 
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 import os
 import json
 
@@ -40,7 +43,7 @@ def evolution(population, epochs):
         temp_pop = []
         len_pop = len(population)
         while len(temp_pop) != len_pop:
-            genetic_op = 2#choices(population=[0,1,2], weights=[1, 49, 50]) #seleccion de operadores geneticos temporal, se queda fija para propositos de prueba
+            genetic_op = choices(population=[0,1,2], weights=[1, 49, 50])[0] #seleccion de operadores geneticos temporal, se queda fija para propositos de prueba
             selected_individuals = choices(population=population, k=2)#esta es una seleccion de individuos temporal, regresa 2 individuos aleatorios
             #print(selected_individuals)
             if genetic_op == 0:#crossover uniforme
@@ -68,4 +71,4 @@ n_population = 100
 _,population = population_initialization(n_population)
 population = evolution(population, 1000)
 
-#print(population)
+print(population)

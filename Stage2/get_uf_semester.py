@@ -23,4 +23,4 @@ def get_uf_semester():
         
     return ufs 
 
-print(get_uf_semester())
+# print(get_uf_semester())
