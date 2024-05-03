@@ -13,7 +13,7 @@ def save_dict_as_json(data, filename):
         json.dump(data, f, indent=4)
         
 poblation = []
-n_poblation = 5
+n_poblation = 100
 
 for _ in range(n_poblation):
     poblation.append(create_cromosom.get_cromosoma(True))
@@ -26,4 +26,6 @@ for i in poblation:
     cromosom_sort.append(restriccions_function.calculate(i,restrictions_dict, True))
     
 cromosom_sort.sort()
-print(cromosom_sort)
+
+for crom in cromosom_sort:
+    print (crom[0])
