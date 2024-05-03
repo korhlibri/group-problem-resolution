@@ -5,6 +5,8 @@ import get_courses_period
 import get_professors_for_course
 import get_groups
 import get_max_hours
+import max_udf_teacher
+import get_uf_semester
 import json
 import os
 
@@ -17,15 +19,18 @@ teachers_avilivity = get_teachers.get_teachers()
 groups_even = get_groups.get_period(False)
 groups_odd = get_groups.get_period(True)
 teachers_max = get_max_hours.get_max_hours()
+udf_teacher = max_udf_teacher.max_udf_teacher()
+uf_semester = get_uf_semester.get_uf_semester()
+
 
 """
 scheduleCollisionProf :  108 YAAAAAAAAAAAAAAAAAAAA
-scheduleCollisionStu :  104
+scheduleCollisionStu :  104 YAAAAAAAAAAAAAAAAAAAA 1/2
 breakTime :  100 YAAAAAAAAAAAAAAAAAAAA
 noMoreTwoAndPairs :  105 YAAAAAAAAAAAAAAAAAAAA
 availableProf :  106 YAAAAAAAAAAAAAAAAAAAAAA
-definedSchedulesUFsAndProf :  106 ???
-minMaxProfTotal :  104 Rich
+definedSchedulesUFsAndProf :  106 
+minMaxProfTotal :  104 YAAAAAAAAAAAAAAAAAAAAAA
 catProfModuleRel :  104
 oddHours :  100
 noWednesday :  10
@@ -37,9 +42,9 @@ notAfterSeven :  13
 """
 gen = ['TC3008', 'G1', 'P2', 'M1', 'Victor Manon', '#Horas a la semana', 'Horario']
 def calculate (cromosoma, restrictions, semester):
+    teachers_udf = {}
     teachers = {}
     subjects = {}
-    semester = {}
     castigo = 0
     for gen in cromosoma:
         if gen[4] in teachers:
@@ -52,6 +57,10 @@ def calculate (cromosoma, restrictions, semester):
                     if len(gen[6][day]) > 2:
                         castigo += restrictions["noMoreTwoAndPairs"]
                     for hour in gen[6][day]:
+                        if gen[4] in teachers_udf:
+                            teachers_udf[gen[4]] += 1
+                        else:
+                            teachers_udf[gen[4]] = 1
                         if gen[0] in subjects:
                             if gen[1] in subjects[gen[0]]:
                                 if gen[2] in subjects[gen[0]][gen[1]]:
@@ -67,10 +76,9 @@ def calculate (cromosoma, restrictions, semester):
                                     gen[2] : [hour]
                                 }
                         else:
+                            a = {gen[2] : [hour]}
                             subjects[gen[0]] = {
-                                gen[1] : {
-                                    
-                                }
+                                gen[1] : a
                             }
 
                         if hour == 13 or hour == 14:
@@ -94,6 +102,10 @@ def calculate (cromosoma, restrictions, semester):
                     teachers[gen[4]][day] = gen[6][day]
         else:
             teachers[gen[4]] = gen[6]
+        for teacher in teachers_udf.keys():
+            if int(udf_teacher[teacher]) > teachers_udf[teacher]:
+                castigo += (restrictions["minMaxProfTotal"] * (int(udf_teacher[teacher]) - teachers_udf[teacher]))
+
             
         
         
