@@ -28,9 +28,12 @@ def mutation_operator(chromosome, semester):
     gen_i = randint(0,len(chromosome)-1)
     pick_gen_element = choice([1,2])
     gen = chromosome[gen_i]
-    #print(gen)
+    #print('ind: ',chromosome)
+    #print('gen: ',gen)
     if pick_gen_element == 1:#Profesor de modulo
+        #print(gen[3])
         options = list(professors_for_course[gen[0]][str(gen[3])])
+        
         #options = list(professors_for_course['TC1001B'][str(gen[3])])
         #print(options)
         #print(gen)
@@ -39,13 +42,15 @@ def mutation_operator(chromosome, semester):
         #print('m',m)
         gen[4] = m
         #print(gen)
-        return gen
+        chromosome[gen_i] = gen
+        return chromosome
     
     elif pick_gen_element == 2: #Horario
         days = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes']
+        #print('gen: ',gen)
 
-        hour = gen[5]
-        #print(hour)
+        hour = int(gen[5])
+        #print('h',hour)
         horario = {}
         while hour != 0:
             day = choice(days)
@@ -63,5 +68,6 @@ def mutation_operator(chromosome, semester):
 
         gen[6] = horario
         #print(gen)
-        return gen
+        chromosome[gen_i] = gen
+        return chromosome
 
