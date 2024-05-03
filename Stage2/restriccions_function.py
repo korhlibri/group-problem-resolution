@@ -29,7 +29,7 @@ scheduleCollisionStu :  104 YAAAAAAAAAAAAAAAAAAAA 1/2
 breakTime :  100 YAAAAAAAAAAAAAAAAAAAA
 noMoreTwoAndPairs :  105 YAAAAAAAAAAAAAAAAAAAA
 availableProf :  106 YAAAAAAAAAAAAAAAAAAAAAA
-definedSchedulesUFsAndProf :  106 
+definedSchedulesUFsAndProf :  106  
 minMaxProfTotal :  104 YAAAAAAAAAAAAAAAAAAAAAA
 catProfModuleRel :  104
 oddHours :  100

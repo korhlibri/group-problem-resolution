@@ -3,6 +3,7 @@ import restriccions_function
 import restrictions
 import os
 import json
+import random
 
 directory = 'json'
 if not os.path.exists(directory):
@@ -27,5 +28,21 @@ for i in poblation:
     
 cromosom_sort.sort()
 
-for crom in cromosom_sort:
-    print (crom[0])
+indexs = []
+for i in range(0, 50):
+    indexs.append(i)
+
+cromosom_sort = cromosom_sort[:50]
+second_generation = []
+
+for _ in range (0,25):
+    n = random.randint(0, len(indexs) - 1)
+    n = indexs.pop(n)
+    
+    
+    m = random.randint(0, len(indexs) - 1)
+    m = indexs.pop(m)
+    
+    second_generation.append((cromosom_sort[n][1], cromosom_sort[m][1]))
+    
+print(len(second_generation))
