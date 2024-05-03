@@ -6,8 +6,9 @@ import random
 def multiCross(nPoints, cromosome1, cromosome2):
 
     puntos_master = []
+    nPoints = nPoints[0]
     while nPoints > 0:
-        point = random.randint(1, len(cromosome1['Cromosoma0'].keys()))
+        point = random.randint(1, len(cromosome1))
         if point in puntos_master:
             continue
         else:
@@ -17,13 +18,12 @@ def multiCross(nPoints, cromosome1, cromosome2):
     cromosome_son1 = []
     cromosome_son2 = []
     
-    for i in range(len(cromosome1['Cromosoma0'])):
+    for i in range(len(cromosome1)):
         if i in puntos_master:
-            cromosome_son1['Cromosoma0'].append(cromosome2['Cromosoma0'][i])
-            cromosome_son2['Cromosoma0'].append(cromosome1['Cromosoma0'][i])
+            cromosome_son1.append(cromosome2[i])
+            cromosome_son2.append(cromosome1[i])
         else:
-            cromosome_son1['Cromosoma0'].append(cromosome1['Cromosoma0'][i])
-            cromosome_son2['Cromosoma0'].append(cromosome2['Cromosoma0'][i])
-        contador += 1
+            cromosome_son1.append(cromosome1[i])
+            cromosome_son2.append(cromosome2[i])
         
     return cromosome_son1, cromosome_son2
