@@ -30,8 +30,8 @@ def mutation_operator(chromosome, semester):
     gen = chromosome[gen_i]
     #print(gen)
     if pick_gen_element == 1:#Profesor de modulo
-        #options = list(professors_for_course[gen[0]][str(gen[3])])
-        options = list(professors_for_course['TC1001B'][str(gen[3])])
+        options = list(professors_for_course[gen[0]][str(gen[3])])
+        #options = list(professors_for_course['TC1001B'][str(gen[3])])
         #print(options)
         #print(gen)
         #m = randint(0,len(options)-1)
